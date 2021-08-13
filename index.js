@@ -48,6 +48,6 @@ function stopInterval() {
 
 new CountdownTimer({
   selector: '#timer-1',
-  targetDate: new Date('Sep 15, 2021 00:00:00'),
+  targetDate: new Date('Sep 04, 2021 00:00:00'),
 });
  

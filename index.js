@@ -39,8 +39,8 @@ function changeTime(time) {
   refs.secs.textContent = `${secs}`;
 };
 
-function stopInterval() {
-    if (timerDate < 0) {
+function stopInterval(time) {
+    if (time < 0) {
         clearInterval(this.timerId);
         alert("Today Irynka has BIRTHDAY!!!")
     }
@@ -48,6 +48,6 @@ function stopInterval() {
 
 new CountdownTimer({
   selector: '#timer-1',
-  targetDate: new Date('Sep 04, 2021 00:00:00'),
+  targetDate: new Date('Sep  04, 2021 00:00:00'),
 });
  

@@ -42,12 +42,12 @@ function changeTime(time) {
 function stopInterval(time) {
     if (time < 0) {
         clearInterval(this.timerId);
-        alert("Today Irynka has BIRTHDAY!!!")
+        alert("Happy New Year!!!")
     }
 }
 
 new CountdownTimer({
   selector: '#timer-1',
-  targetDate: new Date('Sep  04, 2021 00:00:00'),
+  targetDate: new Date('Jan  01, 2022 00:00:00'),
 });
  
